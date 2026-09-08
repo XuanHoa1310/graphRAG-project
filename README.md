@@ -60,3 +60,25 @@ BGE-M3 Embedding
     │
     ▼
 ChromaDB Vector Store
+
+##  2.2. Query – Truy vấn và sinh câu trả lời
+User Query
+    │
+    ▼
+Query Entity Linking
+    │
+    ├──────────────► Vector Search
+    │
+    ├──────────────► Graph Search
+    │
+    └──────────────► Community Search
+                         │
+                         ▼
+                  Context Fusion
+                         │
+                         ▼
+                  Qwen2.5-3B
+                  Generator Engine
+                         │
+                         ▼
+              Final Answer + Sources
